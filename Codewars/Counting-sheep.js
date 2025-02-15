@@ -1,0 +1,29 @@
+/*Consider an array/list of sheep where some sheep 
+may be missing from their place. We need a 
+function that counts the number of sheep present in 
+the array (true means present).
+
+For example, consider the array:
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+
+*/
+
+// first solution
+function countSheeps(sheep) {
+    let counter = 0;
+sheep.map((one) => {
+    if (one === true) counter++
+})
+return counter
+}
+
+
+// second solution
+function countSheeps(sheep) {
+    return sheep.filter(sheep => sheep).length;
+  }
