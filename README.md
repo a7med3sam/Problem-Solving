@@ -1,9 +1,10 @@
-CodeWars Solutions
+# CodeWars Solutions
+
 This repo contains my solutions to various CodeWars challenges using plain JavaScript! I enjoy solving interesting problems with JS.
 
-🚀Clone the repo:
-bash
-Copy
+## 🚀 How to Use
+Clone the repo:
+```bash
 git clone https://github.com/a7med3sam/Problem-Solving.git
 
 💬 Connect
